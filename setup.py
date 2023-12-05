@@ -1,5 +1,5 @@
 from setuptools import setup
-REQIRES = [
+REQUIRES = [
     'allure-pytest',
     'curlify',
     'sqlalchemy',
@@ -14,6 +14,6 @@ setup(
     license='MIT',
     author='Andre',
     author_email='',
-    install_requires=REQIRES,
+    install_requires=REQUIRES,
     description='db_client'
 )
